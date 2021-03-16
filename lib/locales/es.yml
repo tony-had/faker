@@ -9,7 +9,7 @@ es:
       street_suffix: [Aldea, Apartamento, Arrabal, Arroyo, Avenida, Bajada, Barranco, Barrio, Bloque, Calle, Calleja, Camino, Carretera, Caserio, Colegio, Colonia, Conjunto, Cuesta, Chalet, Edificio, Entrada, Escalinata, Explanada, Extramuros, Extrarradio, Ferrocarril, Glorieta, Gran Subida, Grupo, Huerta, Jardines, Lado, Lugar, Manzana, Masía, Mercado, Monte, Muelle, Municipio, Parcela, Parque, Partida, Pasaje, Paseo, Plaza, Poblado, Polígono, Prolongación, Puente, Puerta, Quinta, Ramal, Rambla, Rampa, Riera, Rincón, Ronda, Rua, Salida, Sector, Sección, Senda, Solar, Subida, Terrenos, Torrente, Travesía, Urbanización, Vía, Vía Pública]
       secondary_address: ['Esc. ###', 'Puerta ###']
       # Though these are US-specific, they are here (in the default locale) for backwards compatibility
-      postcode: ['#####']
+      postcode: /(0[1-9]|[1-4]\d|5[0-2])\d{3}/
       province: [Álava, Albacete, Alicante, Almería, Asturias, Ávila, Badajoz, Barcelona, Burgos, Cantabria, Castellón, Ciudad Real, Cuenca, Cáceres, Cádiz, Córdoba, Gerona, Granada, Guadalajara, Guipúzcoa, Huelva, Huesca, Islas Baleares, Jaén, La Coruña, La Rioja, Las Palmas, León, Lugo, lérida, Madrid, Murcia, Málaga, Navarra, Orense, Palencia, Pontevedra, Salamanca, Santa Cruz de Tenerife, Segovia, Sevilla, Soria, Tarragona, Teruel, Toledo, Valencia, Valladolid, Vizcaya, Zamora, Zaragoza]
       state: [Andalucía, Aragón, Principado de Asturias, Baleares, Canarias, Cantabria, Castilla-La Mancha, Castilla y León, Cataluña, Comunidad Valenciana, Extremadura, Galicia, La Rioja, Comunidad de Madrid, Navarra, País Vasco, Región de Murcia]
       state_abbr: [And, Ara, Ast, Bal, Can, Cbr, Man, Leo, Cat, Com, Ext, Gal, Rio, Mad, Nav, Vas, Mur]
